@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга рецептов</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src = "app.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Книга рецептов</h1>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="https://eda.ru/" target="_blank">Рецепты мира</a></li>
+                <li><a href="chat.html">Чат</a></li>
+                <li><a href="zakuska.html">Закуски</a></li>
+                <li><a href="salat.html">Салаты</a></li>
+                <li><a href="meat.html">Мясные блюда</a></li>
+                <li><a href="desert.html">Десерты</a></li>
+                <li><a href="chatDomachyaRab.html">ДОМАШНЯЯ РАБОТА</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <div class="textbox">
+                <h2>Калькулятор массы тела</h2>
+            </div>
+            <p>
+                С помощью данного онлайн-калькулятора вы можете рассчитать ваш индекс массы тела, ИМТ (от англ. Body
+                mass index - BMI).
+            </p>
+            <p>
+                С помощью индекса массы тела вы можете проверить соответствие между массой вашего тела и вашим ростом и
+                узнать, имеется ли у вас избыточный вес, или же, наоборот, не страдаете ли вы недостатком веса. Чтобы
+                рассчитать индекс массы вашего тела (ИМТ) заполните в калькуляторе поля, соответствующие значениям
+                вашего
+                роста и веса.
+            </p>
+            <p>
+                Вводите значения роста и вашего веса с точностью до десятых, тогда результат вычисления будет наиболее
+                точным.
+            </p>
+        
+                <div class="calcul-box">
+                    <div>
+                        <input id="rost" type="text" placeholder="Введите Ваш рост в см?" value="">
+                    </div>
+                    <div>
+                        <input id="ves" type="text" placeholder="Введите Ваш вес кг?" value="">
+                    </div>
+                    <div>
+                        <button onclick="kalkulyator()">Расчитать</button> <span id="out"></span>
+                    </div>
+
+                    <spam id="imt"></spam><br>
+                    <samp id="textImt"></samp>
+                </div>
+        
+
+                <p>
+                    Индекс массы тела ИМТ (англ. BMI) был предложен бельгийским ученым А.Кетле и может быть вычислен последующей формуле:
+                </p>
+
+                <p><img src="./img/calculyatgor/formula.jpg" alt="Формула расчёта индекса массы телла" width="300"></p>
+                <div class="pic2">
+                    <p4><img src="./img/calculyatgor/tabl.jpg" alt="Таблица расчётов" width="400"></p4>
+                </div>
+                <p4>где m – масса тела в килограммах;</p4>
+
+                <p4>h – рост в метрах.</p4>
+
+                <p4>Для интерпретации значений рассчитанных индексов массы тела воспользуйтесь таблицей, приведенной
+                    ниже.</p4>
+
+                <div class="chat">
+                    <img src="./img/calculyatgor/xudei.gif" alt="Худеющий человек" width="979"><br>
+                </div>
+                </p>
+
+
+                <div class="textbox">
+                    <p>Следует отметить, что индекс массы тела рекомендуется рассчитывать для мужчин и женщин в возрасте
+                        20-65 лет.</p>
+                    <p>При использовании ИМТ для оценки телосложения профессиональных спортсменов или подростков (до 18
+                        лет),</p>
+                    <p>полученные результаты могут быть неверными.</p>
+                </div>
+
+
+
+
+
+
+
+
+    
+
+    </main>
+
+    <footer>
+        <h2>(с) 2023</h2>
+    </footer>
+    </div>
+</body>
+
+</html>
